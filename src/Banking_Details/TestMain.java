@@ -4,8 +4,13 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World");
-		System.out.println("This is first demo project");
+		CustomerDetails c=new CustomerDetails();
+		
+		c.setID("351400");
+		c.setName("Shouvik");
+		c.setBalance(100000);
+		System.out.println(c.getBalance());
+		
 
 	}
 
