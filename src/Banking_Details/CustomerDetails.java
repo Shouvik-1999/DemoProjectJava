@@ -16,7 +16,14 @@ public class CustomerDetails {
 	public void setID(String iD) {
 		ID = iD;
 	}
-	public float returnBalance(int amount) {
+	
+	public float getBalance() {
+		return balance;
+	}
+	public void setBalance(float balance) {
+		this.balance = balance;
+	}
+	public float remaningBalance(int amount) {
 		balance=balance-amount;
 		return balance;
 	}
