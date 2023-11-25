@@ -9,7 +9,10 @@ public class TestMain {
 		c.setID("351400");
 		c.setName("Shouvik");
 		c.setBalance(100000);
-		System.out.println(c.getBalance());
+		System.out.println("*************CUSTOMER DETAILS**************");
+		System.out.println("Name:     "+c.getName());
+		System.out.println("ID:       "+c.getID());
+		System.out.println("Balance:  "+c.getBalance());
 		
 
 	}
